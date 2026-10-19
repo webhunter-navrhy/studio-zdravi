@@ -142,3 +142,4 @@ h3 { font-size: var(--step-1); }
 .cenik { align-items: start; }
 .tmava .seznam li { color: #f3ecdf; }
 @media (min-width: 70rem) { main { position: relative; } main::before { content: ""; position: absolute; left: clamp(.5rem, 2vw, 2rem); top: 32rem; bottom: 6rem; width: .7rem; border-radius: 999px; background: repeating-linear-gradient(to bottom, var(--piskova) 0 1.6rem, transparent 1.6rem 2.4rem); opacity: .55; pointer-events: none; } }
+#kde .dva { grid-template-columns: 1fr; } #kde .seznam { max-width: 44rem; }

@@ -1,0 +1,61 @@
+{
+  "url": "https://webhunter-navrhy.github.io/studio-zdravi/",
+  "ok": true,
+  "chyby": [],
+  "varovani": [
+    "Dotykové cíle <40 px na mobilu: 1× (např. a \"Napsat zprávu\" 105×19)"
+  ],
+  "metriky": {
+    "sirky": {
+      "1440": {
+        "scrollWidth": 1440,
+        "pocet_pretekajicich": 0
+      },
+      "1280": {
+        "scrollWidth": 1280,
+        "pocet_pretekajicich": 0
+      },
+      "1024": {
+        "scrollWidth": 1024,
+        "pocet_pretekajicich": 0
+      },
+      "820": {
+        "scrollWidth": 820,
+        "pocet_pretekajicich": 0
+      },
+      "390": {
+        "scrollWidth": 390,
+        "pocet_pretekajicich": 0
+      },
+      "360": {
+        "scrollWidth": 360,
+        "pocet_pretekajicich": 0
+      }
+    },
+    "preneseno_PC_MB": 0.13,
+    "snimku_PC": 7,
+    "preneseno_mobil_MB": 0.13,
+    "snimku_mobil": 9,
+    "seo": {
+      "title": "Studio zdraví Jeseník – bolesti zad, SM systém, cvičení a pobyty",
+      "description": "Studio zdraví Michaely Krumpové: pomoc s bolestmi zad a pohybového aparátu, SM systém, zdravotní cvi",
+      "lang": "cs",
+      "h1": 1,
+      "jsonld": [
+        true
+      ],
+      "robots": "noindex, nofollow",
+      "og_image": "https://webhunter-navrhy.github.io/studio-zdravi/og.jpg",
+      "bez_v": [],
+      "canonical": true,
+      "viewport": true
+    },
+    "maly_dotykovy_cil": 1,
+    "font_nadpis": "Newsreader",
+    "font_text": "Figtree",
+    "podstranky": {
+      "stranek": 1,
+      "obrazku": 0
+    }
+  }
+}
