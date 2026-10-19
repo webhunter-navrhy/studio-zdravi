@@ -131,4 +131,14 @@ h3 { font-size: var(--step-1); }
 .kontakt-velky a, .tmava p a { display: inline-flex; align-items: center; min-height: 44px; }
 @media (min-width: 60rem) { .karty { grid-template-columns: repeat(3, 1fr); } .stitek dl > div { font-size: var(--step-0); } .seznam { columns: 1; } #kde .dva, .sekce:has(.seznam) .dva { align-items: center; } }
 .sekce.tmava + .sekce { padding-top: var(--space-5); }
-.sekce:has(.seznam) .dva > div:last-child { background: var(--pisek); border-radius: .75rem; padding: var(--space-4); }
+#kde .dva > div:last-child { background: var(--petrol); color: #f3ecdf; border-radius: .75rem; padding: var(--space-4); }
+#kde .dva > div:last-child a { color: #fff; }
+#kde .dva > div:last-child h3 { margin-bottom: var(--space-2); }
+#kde .kontakt-velky { font-size: var(--step-3); }
+
+:root { --muted: #3f4a4f; }
+.karty p, .uvod, .lead { color: #3f4a4f; } .karty p { font-size: var(--step-0); }
+.stitek dl > div { font-size: var(--step-0); }
+.cenik { align-items: start; }
+.tmava .seznam li { color: #f3ecdf; }
+@media (min-width: 70rem) { main { position: relative; } main::before { content: ""; position: absolute; left: clamp(.5rem, 2vw, 2rem); top: 32rem; bottom: 6rem; width: .7rem; border-radius: 999px; background: repeating-linear-gradient(to bottom, var(--piskova) 0 1.6rem, transparent 1.6rem 2.4rem); opacity: .55; pointer-events: none; } }
