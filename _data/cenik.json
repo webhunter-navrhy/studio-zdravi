@@ -1,0 +1,28 @@
+[
+ {"skupina": "Ozdravné metody proti bolesti", "polozky": [
+  ["Hloubková oscilace, 1 ošetření", "350 Kč"],
+  ["Hloubková oscilace, 2 a více ošetření", "300 Kč"],
+  ["Kineziotaping dle rozsahu", "200–1 000 Kč"],
+  ["Ostatní masáže a kombinace technik, 60 min", "1 200 Kč"],
+  ["Jiný čas, každých 10 min", "200 Kč"],
+  ["Návštěva u Vás doma, do 5 km zdarma, dále", "8 Kč/km"]]},
+ {"skupina": "Cvičení SPS metoda (SM systém)", "polozky": [
+  ["Skupinové cvičení, 30 min", "200 Kč"],
+  ["Permanentka, 10 vstupů", "1 700 Kč"],
+  ["Individuální cvičení, 30 min", "600 Kč"]]},
+ {"skupina": "Cvičení pro těhotné", "polozky": [
+  ["Skupinová lekce (min. 5 osob)", "200 Kč"],
+  ["Individuální lekce, 60 min", "1 000 Kč"]]},
+ {"skupina": "Shapemaster, rekondiční stoly", "polozky": [
+  ["Zkušební lekce", "100 Kč"],
+  ["Permanentka, zaváděcí cena", "1 000 Kč"],
+  ["Permanentka, stálá cena", "1 200 Kč"]]},
+ {"skupina": "Lymfodrenáž Pneuven Relax", "polozky": [
+  ["Ošetření, 40 min", "170 Kč"],
+  ["Permanentka, 10 ošetření (ideálně 2–3× týdně)", "1 300 Kč"],
+  ["Jednorázové kalhoty", "50 Kč"],
+  ["Zábal proti celulitidě, ke každému ošetření", "+130 Kč"]]},
+ {"skupina": "Kurzy SPS metody", "polozky": [
+  ["Pro začátečníky, 9–16 h, 5–8 osob", "2 000 Kč"],
+  ["Pro mírně pokročilé, 9–16 h, 5–8 osob", "2 000 Kč"]]}
+]

@@ -1,0 +1,116 @@
+{% extends "_base.html" %}
+{% set titulek = 'Studio zdraví Jeseník – bolesti zad, SM systém, cvičení a pobyty' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="nadpis-maly">Michaela Krumpová · Jeseník a okolí</p>
+      <h1>Záda, která <em>nebolí</em>, a tělo, které Vás poslechne.</h1>
+      <p class="lead">Pomáhám lidem s bolestmi zad a pohybového aparátu. Dornovou metodou, masážemi, cvičením SM systému i na ozdravných pobytech v podhůří Jeseníků.</p>
+      <div class="tlacitka">
+        <a class="tlacitko" href="#kontakt">Objednat se</a>
+        <a class="tlacitko druhe" href="tel:+420604666109">Zavolat 604 666 109</a>
+      </div>
+    </div>
+    <div class="hero-pater">{% include "_pater.html" %}</div>
+  </div>
+</section>
+
+<section class="sekce" id="sluzby">
+  <div class="wrap">
+    <p class="cislo">01</p>
+    <h2>S čím Vám pomohu</h2>
+    <p class="uvod">Bolest je signál, že v těle něco nesedí. Na první konzultaci hledáme její původ a teprve potom vybereme metodu. Léky na bolest jsou až poslední řešení.</p>
+    <ul class="karty" role="list">
+      {% for s in data.sluzby %}<li><span class="obratel" aria-hidden="true"></span><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce tmava" id="cviceni">
+  <div class="wrap dva">
+    <div>
+      <p class="cislo">02</p>
+      <h2>Cvičení SM systém (SPS metoda)</h2>
+      <p>Spirální stabilizace páteře vychází z 25 let klinických zkušeností a cviků podle MUDr. Richarda Smíška. Cviky správně zapojují spirální svalové řetězce, protahují páteř vzhůru a dávají ploténkám prostor k regeneraci.</p>
+      <p>Cvičení je vhodné pro děti, lidi se sedavým zaměstnáním, sportovce, těhotné i seniory.</p>
+    </div>
+    <div>
+      <h3>Vhodné například při</h3>
+      <ul class="seznam" role="list">
+        <li>bolestech dolních zad a ischiasu</li>
+        <li>bolestech v hrudní a krční páteři</li>
+        <li>skolióze, kyfóze a lordóze</li>
+        <li>artróze kolene a kyčle</li>
+        <li>bolestech hlavy a migrénách</li>
+        <li>vbočeném palci a plochých nohou</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="cenik">
+  <div class="wrap">
+    <p class="cislo">03</p>
+    <h2>Ceník</h2>
+    <div class="cenik">
+      {% for g in data.cenik %}
+      <article class="stitek">
+        <h3>{{ g.skupina }}</h3>
+        <dl>
+          {% for p in g.polozky %}<div><dt>{{ p[0] }}</dt><dd>{{ p[1] }}</dd></div>{% endfor %}
+        </dl>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sekce pisek" id="pobyty">
+  <div class="wrap dva">
+    <div>
+      <p class="cislo">04</p>
+      <h2>Ozdravné pobyty na chalupě Viklanka</h2>
+      <p>Ozdravné, relaxační a beauty pobyty v Nových Losinách v podhůří Jeseníků. Čtyři balíčky podle toho, co potřebujete.</p>
+      <p>Termíny a ceny pobytů Vám pošlu na vyžádání.</p>
+      <a class="tlacitko" href="#kontakt">Zeptat se na pobyt</a>
+    </div>
+    <ol class="balicky" role="list">
+      <li><b>Balíček I</b> proti bolesti zad a pohybového aparátu</li>
+      <li><b>Balíček II</b> proti bolesti zad a pohybového aparátu</li>
+      <li><b>Balíček III</b> pro těhotné, proti bolesti zad a pohybového aparátu</li>
+      <li><b>Balíček IV</b> pro děti a rodiče: správné držení těla, kompenzační cvičení</li>
+    </ol>
+  </div>
+</section>
+
+<section class="sekce" id="kde">
+  <div class="wrap dva">
+    <div>
+      <p class="cislo">05</p>
+      <h2>Kde mě najdete</h2>
+      <ul class="seznam" role="list">
+        <li><b>U Vás doma</b> v Jeseníku a okolí, do 5 km zdarma</li>
+        <li><b>Jeseník</b>, nemocnice AGEL</li>
+        <li><b>Bohdíkov</b>, základní škola</li>
+        <li><b>Ruda nad Moravou</b>, 9. května 132, přízemí vlevo</li>
+      </ul>
+      <p class="poznamka">Skupinové cvičení SM systému a cvičení pro těhotné probíhá v Jeseníku, Bohdíkově a Rudě nad Moravou.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce tmava" id="kontakt">
+  <div class="wrap dva">
+    <div>
+      <p class="cislo">06</p>
+      <h2>Objednání a dotazy</h2>
+      <p>Napište, o co jde, a ozvu se Vám. Stačí také zavolat.</p>
+      <p class="kontakt-velky"><a href="tel:+420604666109">604 666 109</a></p>
+      <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

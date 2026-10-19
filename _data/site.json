@@ -1,0 +1,31 @@
+{
+  "slug": "studio-zdravi",
+  "nazev": "Studio zdraví",
+  "url": "https://webhunter-navrhy.github.io/studio-zdravi/",
+  "base": "/studio-zdravi/",
+  "lang": "cs",
+  "popis": "Studio zdraví Michaely Krumpové: pomoc s bolestmi zad a pohybového aparátu, SM systém, zdravotní cvičení a ozdravné pobyty. Jeseník a okolí.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "og-zdi.jpg",
+  "logo": "",
+  "theme_color": "#1e3c47",
+  "typ": "LocalBusiness",
+  "ico": "",
+  "kontakt": {
+    "email": "michaela.krumpova@centrum.cz",
+    "telefon": "+420 604 666 109",
+    "adresa": {"ulice": "9. května 132", "psc": "", "mesto": "Ruda nad Moravou", "zeme": "CZ"}
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {"endpoint": "", "demo": true, "predmet": "Poptávka z webu Studio zdraví"},
+  "nav": [
+    {"text": "Co řeším", "href": "#sluzby"},
+    {"text": "Cvičení", "href": "#cviceni"},
+    {"text": "Ceník", "href": "#cenik"},
+    {"text": "Pobyty", "href": "#pobyty"},
+    {"text": "Kontakt", "href": "#kontakt"}
+  ]
+}
