@@ -95,7 +95,7 @@ h3 { font-size: var(--step-1); }
 @keyframes obr { from { opacity: 0; translate: 0 14px; } to { opacity: 1; translate: 0 0; } }
 .cislo { font-family: var(--font-head); font-style: italic; color: var(--hneda); font-size: var(--step-2); margin-bottom: var(--space-1); }
 .uvod { max-width: 40rem; margin-top: var(--space-2); color: var(--muted); font-size: var(--step-1); }
-.karty { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: var(--space-3); margin-top: var(--space-4); }
+.karty { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: var(--space-3); margin-top: var(--space-4); }
 .karty li { border-top: 2px solid var(--petrol); padding-top: var(--space-2); }
 .karty p { color: var(--muted); margin-top: .5rem; }
 .obratel { display: block; width: 2.2rem; height: .7rem; border-radius: 999px; background: var(--piskova); margin-bottom: .75rem; }
@@ -129,3 +129,6 @@ h3 { font-size: var(--step-1); }
 @media (max-width: 52rem) { .hero-grid, .dva { grid-template-columns: 1fr; gap: var(--space-4); } .hero-pater { max-width: 13rem; order: -1; justify-self: start; } .hero { padding-top: var(--space-4); } }
 @media (prefers-reduced-motion: reduce) { .obr { opacity: 1; animation: none; } }
 .kontakt-velky a, .tmava p a { display: inline-flex; align-items: center; min-height: 44px; }
+@media (min-width: 60rem) { .karty { grid-template-columns: repeat(3, 1fr); } .stitek dl > div { font-size: var(--step-0); } .seznam { columns: 1; } #kde .dva, .sekce:has(.seznam) .dva { align-items: center; } }
+.sekce.tmava + .sekce { padding-top: var(--space-5); }
+.sekce:has(.seznam) .dva > div:last-child { background: var(--pisek); border-radius: .75rem; padding: var(--space-4); }
